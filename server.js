@@ -21,6 +21,7 @@ app.use(
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  console.log(req.hostname);
   res.send("Hello World");
 });
 
