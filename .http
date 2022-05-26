@@ -1,0 +1,11 @@
+# Get All TODO's
+GET http://localhost:8080
+
+### Get TODO by ID
+POST http://localhost:8080/todos
+{headers: {'Content-Type': 'application/json'},{
+  "title": "TODO 1",
+  "description": "TODO 1 description",
+  "status": "pending",
+  "email": "mahabubsany2@gmail.com"
+}}
